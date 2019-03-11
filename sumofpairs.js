@@ -1,3 +1,4 @@
+//ints is the array you want to search through with 's' as the value you want.
 var sum_pairs = function(ints, s){
   const values = {}
   
