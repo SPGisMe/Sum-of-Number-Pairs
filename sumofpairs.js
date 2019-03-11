@@ -1,4 +1,4 @@
-var sum_pairs=function(ints, s){
+var sum_pairs = function(ints, s){
   const values = {}
   
   for (i = 0; i < ints.length; i++) {
