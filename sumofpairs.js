@@ -8,7 +8,7 @@ var sum_pairs = function(ints, s){
       return [values[ints[i]], ints[i]];
     } else {
       let diff = s - ints[i];
-      values[diff] = ints [i];
+      values[diff] = ints [i]; //stores the difference between array value and s as the key for ints[i] in values object
     }
   }
   return undefined;
